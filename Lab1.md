@@ -14,10 +14,20 @@ giving cd an argument to a path that leads to file or simply a file as an argume
 the ls commands lists the files or subdirectories that they are currently in. If current directory is home for example, ls will lists all files or directories within home.
 ![Image](https://cdn.discordapp.com/attachments/974137838180380672/1196999965097087107/Screenshot_2024-01-11_at_9.08.19_AM.png?ex=65b9ac16&is=65a73716&hm=7301e624ee19f14ab603fead049e467af292df492590a4e90a679fc7ed687a7a&)
 
+if the ls command is provided a directory as an argument, it will lists the contents of the directory which may include files or other directories contained within it. That is what is happening when we provided lecture1 as an argument to the ls command.
+
 ![Image](https://cdn.discordapp.com/attachments/974137838180380672/1196999965394878554/Screenshot_2024-01-11_at_9.08.55_AM.png?ex=65b9ac16&is=65a73716&hm=ebe23c6954b4827c360af71fa57542f49c794a44c6786f17d0e95e3ba59180f7&)
 
+it appears that when the ls command is provided a file through a path, it lists the path again. This makes sense because the point of ls is to litteraly list the contents.
 ![Image](https://cdn.discordapp.com/attachments/974137838180380672/1197000003651112970/Screenshot_2024-01-11_at_9.12.35_AM.png?ex=65b9ac20&is=65a73720&hm=e316879ac120b71857646818e42146815d4d5537df086633b90b501a09ec2a58&)
+
+When using the cat command with a path to a file as an argument, the command will allow you to see the contents of the file. in this case, it allows us to see the contents of Hello.java
 
 ![Image](https://cdn.discordapp.com/attachments/974137838180380672/1196999966317617173/Screenshot_2024-01-11_at_9.12.17_AM.png?ex=65b9ac17&is=65a73717&hm=9118927db0e9738bd4d70d9b5e61ed712b8c664a70aab129a3c448eada51b3e8&)
 
+Typing in cat with no arguments it has nothing to read from the terminal, so it displays nothing.
+
 ![Image](https://cdn.discordapp.com/attachments/974137838180380672/1197000003441410109/Screenshot_2024-01-11_at_9.12.29_AM.png?ex=65b9ac20&is=65a73720&hm=bbe74e68bf6602017552ca4f7bba3756faccfbd762a2239fe2f17c483a069595&)
+
+if we give a directory to cat as an argument, it will confirm that is it a directory. It is not an error, it's just meant to display files on the command line, and you cannot display a directory on the command line with cat.
+
