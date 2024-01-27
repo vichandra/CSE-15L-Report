@@ -39,13 +39,13 @@
 ![Image](https://cdn.discordapp.com/attachments/974137838180380672/1197000003651112970/Screenshot_2024-01-11_at_9.12.35_AM.png?ex=65b9ac20&is=65a73720&hm=e316879ac120b71857646818e42146815d4d5537df086633b90b501a09ec2a58&)
 
 
-> Typing in **cat** with no arguments it has nothing to read from the terminal, so it displays nothing:
+> Typing in **cat** with no arguments it has nothing to read from the terminal, so it displays nothing. In this case, the current working directory was /home and there was no error:
 
 ![Image](https://cdn.discordapp.com/attachments/974137838180380672/1196999966317617173/Screenshot_2024-01-11_at_9.12.17_AM.png?ex=65b9ac17&is=65a73717&hm=9118927db0e9738bd4d70d9b5e61ed712b8c664a70aab129a3c448eada51b3e8&)
 
 
 
-> if we give a directory to **cat** as an argument, it will confirm that is it a directory. It is not an error, it's just meant to display files on the command line, and you cannot display a directory on the command line with cat:
+> if we give a directory to **cat** as an argument, it will confirm that is it a directory. In this case the working directory is /home/lecture1. It is not an error, it's just meant to display files on the command line, and you cannot display a directory on the command line with cat:
 
 ![Image](https://cdn.discordapp.com/attachments/974137838180380672/1197000003441410109/Screenshot_2024-01-11_at_9.12.29_AM.png?ex=65b9ac20&is=65a73720&hm=bbe74e68bf6602017552ca4f7bba3756faccfbd762a2239fe2f17c483a069595&)
 
