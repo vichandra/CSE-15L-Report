@@ -1,3 +1,5 @@
+
+## Part 1
 ![Image](https://cdn.discordapp.com/attachments/974137838180380672/1200952008585269389/Screenshot_2024-01-27_at_3.40.47_PM.png?ex=65c80cb7&is=65b597b7&hm=b6be69db6dc74d61f6bfc9f5e3377d1d845a493334e3678041d882662c9653e8&)
 
 <p> Inorder to achieve this output shown above, I compiled and ran ChatServer with port #5555. I then used the path /add-message along with the query ?s=How are you?&user= Viraj.
@@ -46,3 +48,8 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
+```
+
+## Part 3
+
+In lab, learning how to use querys and a local host website was interesting. I got to learn about ports and servers which was something that I have not used before. I also got to learn more about unix commands and they turn out to make coding in other classes easier because I stay organized better.
