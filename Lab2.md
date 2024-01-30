@@ -65,7 +65,7 @@ class ChatServer {
 ### Finally, here is a terminal interaction of logging into ieng6 server without entering a password:
 
 
-![Image](https://cdn.discordapp.com/attachments/974137838180380672/1201951365900013608/Screenshot_2024-01-30_at_10.04.31_AM.png?ex=65cbaf70&is=65b93a70&hm=6063ac79424996609d697e0d8503b53639a16c233ceb58031d800e73c2cdb007&)
+![Image](https://cdn.discordapp.com/attachments/974137838180380672/1201951365207961640/Screenshot_2024-01-30_at_10.03.08_AM.png?ex=65cbaf70&is=65b93a70&hm=c12e8d21e73e19341a88faadd988697d4c2d4177bcddda74d87971b81b68b08f&)
 
 
 ## Part 3
