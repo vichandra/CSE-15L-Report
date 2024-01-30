@@ -54,7 +54,18 @@ class ChatServer {
 
 ## Part 2
 
+### Here is the absolute path to the private key:
 
+![Image](https://cdn.discordapp.com/attachments/974137838180380672/1201951365598019686/Screenshot_2024-01-30_at_10.03.27_AM.png?ex=65cbaf70&is=65b93a70&hm=9208994a8806c80516666fbc0c170fe423bd96f24a60b082eb31a6ab4bf0e58c&)
+
+### Here is the absolute path to the public on the ieng6 server:
+
+![Image](https://cdn.discordapp.com/attachments/974137838180380672/1201951365900013608/Screenshot_2024-01-30_at_10.04.31_AM.png?ex=65cbaf70&is=65b93a70&hm=6063ac79424996609d697e0d8503b53639a16c233ceb58031d800e73c2cdb007&)
+
+### Finally, here is a terminal interaction of logging into ieng6 server without entering a password:
+
+
+![Image](https://cdn.discordapp.com/attachments/974137838180380672/1201951365900013608/Screenshot_2024-01-30_at_10.04.31_AM.png?ex=65cbaf70&is=65b93a70&hm=6063ac79424996609d697e0d8503b53639a16c233ceb58031d800e73c2cdb007&)
 
 
 ## Part 3
