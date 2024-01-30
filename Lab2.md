@@ -52,6 +52,11 @@ class ChatServer {
 }
 ```
 
+## Part 2
+
+
+
+
 ## Part 3
 
 In lab, learning how to use querys and a local host website was interesting. I got to learn about ports and servers which was something that I have not used before. I also got to learn more about unix commands and they turn out to make coding in other classes easier because I stay organized better.
