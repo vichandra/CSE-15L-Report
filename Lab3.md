@@ -174,3 +174,4 @@ virajchandra@Virajs-MacBook-Pro technical % grep -wr "God" 911report/
 911report//chapter-1.txt:    FAA Headquarters: Oh, God, I don't know.
 911report//chapter-10.txt:                the sensibilities of Muslims who associate the power of infinite justice with God
 ```
+we can see that when we use grep -wr here, we are locating all the lines in the directory `911report` where the word "God" is used. This is a very helpful tool that can help narrow our research.
