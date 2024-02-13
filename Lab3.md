@@ -1,6 +1,6 @@
 
 
-##Part 1 - Bugs
+## Part 1 - Bugs
 
 the first code block is the issue found in the tester (failure inducing output) caused by the faulty method. 
 The second block of code is  another tester that does not cause any failure inducing output the method itself. 
