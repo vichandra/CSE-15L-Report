@@ -51,9 +51,51 @@ the following is a test that would not indicate an issue with the code:
 ## Part 2 - Researching Commands: Grep
 
 
-The first way we will use grep is with the key word -o. When utilized with grep, it 
- ``
+The first way we will use grep is with the key word `-o`. When utilized with grep, prints only the matching part of each line that contains the specified pattern. it isolates and outputs the specific matched substrings or patterns.
+
+ ```
 virajchandra@Virajs-MacBook-Pro 911report % grep -o "care" chapter-1.txt
 care
 care
-``
+
+```
+
+In the context above, using grep -o to find a pattern in a file will print out all occurences of care in the file, excluding the the other words in the line that it was found in. This is an efficient way to check the occurences of a word, character, or phrase that can save time.
+
+We can use `grep` and `-o` with another key word `r` to help us find a character,word, or pattern in the specified directory and its subdirectories and print only the matching part of each line.
+
+
+```
+virajchandra@Virajs-MacBook-Pro technical % grep -ro "rubble" 911report/
+911report//chapter-13.5.txt:rubble
+```
+
+In this case, using `grep` with both `r` and `o` allows searching the word "rubble" within several number of files within the sub directory of `911report`, and provided 1 instance in the file `chapter-13.5.txt` where the word "rubble" was found
+
+
+The second way of using grep is with the key word `-E`. You can search for lines containing  2 key words as arguments. for example either `"pattern1"` or `"pattern2"`. This is a way to  implement OR logic in a search.
+
+
+```
+virajchandra@Virajs-MacBook-Pro biomed % grep -E "death|molecule" 1471-2202-3-5.txt 
+        appears that the same molecules previously identified as
+
+```
+ In the example above the command searches for a "death or "molecule" within files in the biomed/ and print only the matching part of each line.
+
+
+
+
+When looking through a directory, the implementation of `grep -E` is relativley similar. Instead of just using `-E`, we use `-Er`
+
+```
+grep -Er "iphone|chromium" biomed/
+biomed//1471-2334-3-9.txt:        evaluated. Only the copper and chromium PcS were able to
+biomed//1477-7827-1-6.txt:          solution (0.025% chromium potassium sulfate, 0.25%
+biomed//1471-2172-3-9.txt:        chromium release cytotoxic assay was performed by the
+biomed//1471-2172-3-9.txt:        the corresponding increase in the chromium release values
+biomed//1471-2172-3-9.txt:        corresponding increase in the chromium release values is
+```
+
+With this command, grep searches for lines containing either `"iphone"` or `"chromium"` within the files in the specified directory `biomed/`.
+
