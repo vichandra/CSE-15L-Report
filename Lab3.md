@@ -47,3 +47,13 @@ the following is a test that would not indicate an issue with the code:
 
 
 
+
+## Part 2 - Researching Commands: Grep
+
+
+The first way we will use grep is with the key word -o. When utilized with grep, it 
+ ``
+virajchandra@Virajs-MacBook-Pro 911report % grep -o "care" chapter-1.txt
+care
+care
+``
