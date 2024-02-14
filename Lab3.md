@@ -51,7 +51,7 @@ the following is a test that would not indicate an issue with the code:
 ## Part 2 - Researching Commands: Grep
 
 
-The first way we will use grep is with the key word `-o`. When utilized with grep, prints only the matching part of each line that contains the specified pattern. it isolates and outputs the specific matched substrings or patterns.
+#### The first way we will use grep is with the key word `-o`. When utilized with grep, prints only the matching part of each line that contains the specified pattern. it isolates and outputs the specific matched substrings or patterns.
 
  ```
 virajchandra@Virajs-MacBook-Pro 911report % grep -o "care" chapter-1.txt
@@ -73,7 +73,7 @@ virajchandra@Virajs-MacBook-Pro technical % grep -ro "rubble" 911report/
 In this case, using `grep` with both `r` and `o` allows searching the word "rubble" within several number of files within the sub directory of `911report`, and provided 1 instance in the file `chapter-13.5.txt` where the word "rubble" was found
 
 
-The second way of using grep is with the key word `-E`. You can search for lines containing  2 key words as arguments. for example either `"pattern1"` or `"pattern2"`. This is a way to  implement OR logic in a search.
+#### The second way of using grep is with the key word `-E`. You can search for lines containing  2 key words as arguments. for example either `"pattern1"` or `"pattern2"`. This is a way to  implement OR logic in a search.
 
 
 ```
@@ -100,7 +100,7 @@ biomed//1471-2172-3-9.txt:        corresponding increase in the chromium release
 With this command, grep searches for lines containing either `"iphone"` or `"chromium"` within the files in the specified directory `biomed/`.
 
 
-The third way of using grep is with -n: grep -n "pattern" file.txt is an example, where we are trying to find the number of instances of "pattern" in the file `file.txt`
+#### The third way of using grep is with -n: grep -n "pattern" file.txt is an example, where we are trying to find the number of instances of "pattern" in the file `file.txt`
 ```
 grep -n "water" water_fees.txt
 
@@ -142,7 +142,7 @@ virajchandra@Virajs-MacBook-Pro technical % grep -nr "water" 911report/
 ```
 
 
-for our final example of using grep, we can use `-w`.
+#### for our final example of using grep, we can use `-w`.
 
 
 for files, here is how the command looks if wanted to search for "word" within file.txt: `grep -w` "word" `file.txt`. This command searches for the word "water" within all files in the "911report" directory and its subdirectories, displaying the line number along with each matching line.
