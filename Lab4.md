@@ -11,10 +11,12 @@ Because we were able to set up the keys in the lab, the next was simply to copy 
 
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783268488446024/Screenshot_2024-02-26_at_10.18.47_AM.png?ex=65ef741d&is=65dcff1d&hm=3a2ae3351f268e864338e0dddff8de12d902c9813a69f7a805049c4bb5949ee6&)
 ### Step 6
+The next step was to check if the tests in `ListExamplesTests.java`. Inorder to do this, I pressed `cd lab7` and typed `bash test.sh` so that I can see if the tests passed, I was informed that 2 tests were run and 1 failed.
 
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783268957945966/Screenshot_2024-02-26_at_12.51.00_PM.png?ex=65ef741d&is=65dcff1d&hm=0c5069a97c11c03ae26234b1264a71d16e2c46f7ed518997317214819272218c&)
 ### Step 7
 
+for the seventh step, I typed in `vim ListExamples.java` inorder to view the code and change it. Inorder to change the code, I pressed `esc` followed by `<20 down>` 
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783269297819728/Screenshot_2024-02-26_at_12.56.53_PM.png?ex=65ef741d&is=65dcff1d&hm=f7debc8426b2789b66a29c6884da484b49cddd9c8e3d0afed9f87c478a65bdb4&)
 
 ### Step 8
