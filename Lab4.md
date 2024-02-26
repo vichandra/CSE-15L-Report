@@ -16,11 +16,12 @@ The next step was to check if the tests in `ListExamplesTests.java`. Inorder to 
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783268957945966/Screenshot_2024-02-26_at_12.51.00_PM.png?ex=65ef741d&is=65dcff1d&hm=0c5069a97c11c03ae26234b1264a71d16e2c46f7ed518997317214819272218c&)
 ### Step 7
 
-for the seventh step, I typed in `vim ListExamples.java` inorder to view the code and change it. Inorder to change the code, I pressed `esc` followed by `<20 down>` 
+for the seventh step, I typed in `vim ListExamples.java` inorder to view the code and change it. Inorder to change the code, I pressed `esc` followed by `<20 down>`  `<6 right>`. Finally, I pressed `<esc>` again followed by `<i>`, `<backspace` , and typing in `<2>`. After doing this, typed out `<:wq>` which allowed me to save and quit the code. Essentially, this step corrected index1 and changed it to index2.
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783269297819728/Screenshot_2024-02-26_at_12.56.53_PM.png?ex=65ef741d&is=65dcff1d&hm=f7debc8426b2789b66a29c6884da484b49cddd9c8e3d0afed9f87c478a65bdb4&)
 
 ### Step 8
 
+I typed in `<up>,<up>` to get to my command history to use the command `<bash test.sh>`
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783269662855188/Screenshot_2024-02-26_at_12.58.46_PM.png?ex=65ef741d&is=65dcff1d&hm=035acadd2916527bad8f4f5a6b9a88a588e458548a6b2b19d10b272bc96a1403&)
 
 ### Step 9
