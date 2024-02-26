@@ -1,8 +1,13 @@
 
 ### Step 4
+
+The first step in the lab report was to log into ieng6 server. To achieve this I went to the vscode terminal and typed in `ssh vichandra@ieng6.uscd.edu` inorder to log me into the server.
+
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783268064563280/Screenshot_2024-02-26_at_10.18.24_AM.png?ex=65ef741c&is=65dcff1c&hm=9c126bf773e3e9477309a001aee0fb6a8b86b7032fdb9aa7244b03183e50ef9b&)
 
 ### Step 5
+
+Because we were able to set up the keys in the lab, the next was simply to copy the ssh link from github. I then went to to the terminal and typed `git clone` followed by `<command v` and `<Enter>`
 
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783268488446024/Screenshot_2024-02-26_at_10.18.47_AM.png?ex=65ef741d&is=65dcff1d&hm=3a2ae3351f268e864338e0dddff8de12d902c9813a69f7a805049c4bb5949ee6&)
 ### Step 6
