@@ -46,7 +46,30 @@ the following is a test that would not indicate an issue with the code:
 ![img](https://cdn.discordapp.com/attachments/1039377931253854269/1207026528626671746/Screenshot_2024-02-13_at_10.07.39_AM.png?ex=65de260d&is=65cbb10d&hm=45340d002ea79f3f09a2c7e4ae273d1f41b7e775104899cc27430640634e5a45&)
 
 
+### Here is the following updated code. The differences between the code and why the new edits allow the test case to pass will be explained below
 
+
+#### Old code:
+```
+// Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+```
+
+
+#### New code:
+```
+static void reverseInPlace(int[] arr) {
+    int n = arr.length;
+    for (int i = 0; i < n / 2; i++) {
+        int temp = arr[i];
+        arr[i] = arr[n - i - 1];
+        arr[n - i - 1] = temp;
+    }
+}
+```
 
 ## Part 2 - Researching Commands: Grep
 
