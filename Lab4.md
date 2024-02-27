@@ -1,3 +1,4 @@
+# Lab Report 4 - Vim
 
 ### Step 4
 
@@ -7,11 +8,11 @@ The first step in the lab report was to log into ieng6 server. To achieve this I
 
 ### Step 5
 
-Because we were able to set up the keys in the lab, the next was simply to copy the ssh link from github. I then went to to the terminal and typed `git clone` followed by `<command v` and `<Enter>`
+Because we were able to set up the keys in the lab, the next was simply to copy the ssh link from github. I then went to to the terminal and typed `git clone` followed by `<command v` and `<Enter>`. This cloned the repository code onto the  my account in ieng6 server for me to edit and view. Now we have the ability to access,edit,or run tests in the files in the repository.
 
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783268488446024/Screenshot_2024-02-26_at_10.18.47_AM.png?ex=65ef741d&is=65dcff1d&hm=3a2ae3351f268e864338e0dddff8de12d902c9813a69f7a805049c4bb5949ee6&)
 ### Step 6
-The next step was to check if the tests in `ListExamplesTests.java`. Inorder to do this, I pressed `cd lab7` and typed `bash test.sh` so that I can see if the tests passed, I was informed that 2 tests were run and 1 failed.
+The next step was to check if the tests in `ListExamplesTests.java`. Inorder to do this, I typed `cd lab7` and `<space>` and typed `bash test.sh` so that I can see if the tests passed, I was informed that 2 tests were run and 1 failed.
 
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783268957945966/Screenshot_2024-02-26_at_12.51.00_PM.png?ex=65ef741d&is=65dcff1d&hm=0c5069a97c11c03ae26234b1264a71d16e2c46f7ed518997317214819272218c&)
 ### Step 7
@@ -21,7 +22,7 @@ for the seventh step, I typed in `vim ListExamples.java` inorder to view the cod
 
 ### Step 8
 
-I typed in `<up>,<up>` to get to my command history to use the command `<bash test.sh>`
+I pressed in `<up>,<up>` to get to my command history to use the command `bash test.sh`
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783269662855188/Screenshot_2024-02-26_at_12.58.46_PM.png?ex=65ef741d&is=65dcff1d&hm=035acadd2916527bad8f4f5a6b9a88a588e458548a6b2b19d10b272bc96a1403&)
 
 ### Step 9
