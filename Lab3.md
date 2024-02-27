@@ -1,4 +1,4 @@
-
+# Lab Report 3
 
 ## Part 1 - Bugs
 
@@ -51,7 +51,7 @@ the following is a test that would not indicate an issue with the code:
 ## Part 2 - Researching Commands: Grep
 
 
-#### The first way we will use grep is with the key word `-o`. When utilized with grep, prints only the matching part of each line that contains the specified pattern. it isolates and outputs the specific matched substrings or patterns.
+#### The first way we will use grep is with the key word ` -o `. When utilized with grep, prints only the matching part of each line that contains the specified pattern. it isolates and outputs the specific matched substrings or patterns.
 
  ```
 virajchandra@Virajs-MacBook-Pro 911report % grep -o "care" chapter-1.txt
@@ -73,7 +73,7 @@ virajchandra@Virajs-MacBook-Pro technical % grep -ro "rubble" 911report/
 In this case, using `grep` with both `r` and `o` allows searching the word "rubble" within several number of files within the sub directory of `911report`, and provided 1 instance in the file `chapter-13.5.txt` where the word "rubble" was found
 
 
-#### The second way of using grep is with the key word `-E`. You can search for lines containing  2 key words as arguments. for example either `"pattern1"` or `"pattern2"`. This is a way to  implement OR logic in a search.
+#### The second way of using ` grep ` is with the key word `-E`. You can search for lines containing  2 key words as arguments. for example either `"pattern1"` or `"pattern2"`. This is a way to  implement OR logic in a search.
 
 
 ```
@@ -81,7 +81,7 @@ virajchandra@Virajs-MacBook-Pro biomed % grep -E "death|molecule" 1471-2202-3-5.
         appears that the same molecules previously identified as
 
 ```
- In the example above the command searches for a "death or "molecule" within files in the biomed/ and print only the matching part of each line.
+ In the example above the command searches for a `"death `or  `"molecule"` within files in the `biomed/ `and print only the matching part of each line.
 
 
 
@@ -155,7 +155,7 @@ virajchandra@Virajs-MacBook-Pro 911report % grep -w "chair" preface.txt
 ```
 This command searches for the whole word "word" in file.txt, rather than matching it as part of a larger word.
 
-for directories, we use -wr so we can check through all files and subdirectories within the directory we are looking at to see if the character,word, or pattern exists, and where and how manytimes.
+for directories, we use ` -wr` so we can check through all files and subdirectories within the directory we are looking at to see if the character,word, or pattern exists, and where and how manytimes.
 `grep -wr`
 ```
 virajchandra@Virajs-MacBook-Pro technical % grep -wr "God" 911report/
@@ -174,4 +174,4 @@ virajchandra@Virajs-MacBook-Pro technical % grep -wr "God" 911report/
 911report//chapter-1.txt:    FAA Headquarters: Oh, God, I don't know.
 911report//chapter-10.txt:                the sensibilities of Muslims who associate the power of infinite justice with God
 ```
-we can see that when we use grep -wr here, we are locating all the lines in the directory `911report` where the word "God" is used. This is a very helpful tool that can help narrow our research.
+we can see that when we use `grep -wr here `, we are locating all the lines in the directory `911report` where the word "God" is used. This is a very helpful tool that can help narrow our research.
