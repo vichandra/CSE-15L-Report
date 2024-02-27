@@ -22,10 +22,10 @@ for the seventh step, I typed in `vim ListExamples.java` inorder to view the cod
 
 ### Step 8
 
-I pressed in `<up>,<up>` to get to my command history to use the command `bash test.sh`
+I pressed in `<up>,<up>` to get to my command history to use the command `bash test.sh`. This is a more efficient way to get the tests run without having to type the commands to compile and run Junit or to retype `bash test.sh`, which allows me to be more efficient.
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783269662855188/Screenshot_2024-02-26_at_12.58.46_PM.png?ex=65ef741d&is=65dcff1d&hm=035acadd2916527bad8f4f5a6b9a88a588e458548a6b2b19d10b272bc96a1403&)
 
 ### Step 9
 
-For the final step, I typed in `<git add .>` and then typed in `<git commit -m "committed">`. finally i typed in `<git push origin main>`
+For the final step, I typed in `<git add .>` and then typed in `<git commit -m "committed">`. finally i typed in `<git push origin main>` . This allows me to push and commit all of the changes to the forked repository in my github account.
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211791247543509062/Screenshot_2024-02-26_at_1.42.46_PM.png?ex=65ef7b8b&is=65dd068b&hm=12c849b2408a9bbbbd060547ec2447de9d4a9a8fd7a7ccda5257556f24915e42&)
