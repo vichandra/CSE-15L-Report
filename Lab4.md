@@ -26,4 +26,5 @@ I typed in `<up>,<up>` to get to my command history to use the command `<bash te
 
 ### Step 9
 
+For the final step, I typed in `<git add .>` and then typed in `<git commit -m "committed">`. finally i typed in `<git push origin main>`
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1211791247543509062/Screenshot_2024-02-26_at_1.42.46_PM.png?ex=65ef7b8b&is=65dd068b&hm=12c849b2408a9bbbbd060547ec2447de9d4a9a8fd7a7ccda5257556f24915e42&)
