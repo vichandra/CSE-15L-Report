@@ -48,7 +48,6 @@ the following is a test that would not indicate an issue with the code:
 
 ### Here is the following updated code. The differences between the code and why the new edits allow the test case to pass will be explained below
 
-
 #### Old code:
 ```
 // Changes the input array to be in reversed order
@@ -74,6 +73,7 @@ static void reverseInPlace(int[] arr) {
 The difference between these codes lies in the fact that one incorrectly copies the elements to reverse them, since it ovverrides previous elements, causing there to be a loss of data/information within the array. However, with the new code, the implementation of a temp variable allows the array to hold on to previous data temporarily so it may not get ovverided, allowing it to fully reverse the order of elements without data being erased.
 
 ## Part 2 - Researching Commands: Grep
+### (Citations: All commands were discovered by asking gpt 3.5: "what are some unique ways to use grep for files/directories in the terminal?")
 
 
 #### The first way we will use grep is with the key word ` -o `. When utilized with grep, prints only the matching part of each line that contains the specified pattern. it isolates and outputs the specific matched substrings or patterns.
