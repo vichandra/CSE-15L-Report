@@ -71,6 +71,8 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 
+The difference between these codes lies in the fact that one incorrectly copies the elements to reverse them, since it ovverrides previous elements, causing there to be a loss of data/information within the array. However, with the new code, the implementation of a temp variable allows the array to hold on to previous data temporarily so it may not get ovverided, allowing it to fully reverse the order of elements without data being erased.
+
 ## Part 2 - Researching Commands: Grep
 
 
