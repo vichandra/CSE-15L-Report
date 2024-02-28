@@ -43,9 +43,21 @@ the following is a test that would not indicate an issue with the code:
 
 ### Here are the symptoms of the JUNIT tests
 
+```
+vichandra@ieng6-201:lab7:44$ bash test.sh
+JUnit version 4.13.2
+..E
+Time: 0.52
+There was 1 failure:
+1) testMerge2(ListExamplesTests)
+org.junit.runners.model.TestTimedOutException: test timed out after 500 milliseconds
+    at ListExamples.merge(ListExamples.java:44)
+    at ListExamplesTests.testMerge2(ListExamplesTests.java:19)
 
-![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783268957945966/Screenshot_2024-02-26_at_12.51.00_PM.png?ex=65ef741d&is=65dcff1d&hm=0c5069a97c11c03ae26234b1264a71d16e2c46f7ed518997317214819272218c&)
+FAILURES!!!
+Tests run: 2, Failures: 1
 
+```
 ### Here is the following updated code. The differences between the code and why the new edits allow the test case to pass will be explained below
 
 #### Old code:
