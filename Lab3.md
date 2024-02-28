@@ -44,8 +44,7 @@ the following is a test that would not indicate an issue with the code:
 ### Here are the symptoms of the JUNIT tests
 
 
-![img](https://cdn.discordapp.com/attachments/1039377931253854269/1207026528626671746/Screenshot_2024-02-13_at_10.07.39_AM.png?ex=65de260d&is=65cbb10d&hm=45340d002ea79f3f09a2c7e4ae273d1f41b7e775104899cc27430640634e5a45&)
-
+![img](https://cdn.discordapp.com/attachments/974137838180380672/1211783268957945966/Screenshot_2024-02-26_at_12.51.00_PM.png?ex=65ef741d&is=65dcff1d&hm=0c5069a97c11c03ae26234b1264a71d16e2c46f7ed518997317214819272218c&)
 
 ### Here is the following updated code. The differences between the code and why the new edits allow the test case to pass will be explained below
 
