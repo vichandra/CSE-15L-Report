@@ -44,6 +44,31 @@ public class ArrayExamples {
 ```
 Here is my testing class as well as the failure output I recieved from the terminal:
 
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+        @Test
+        public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+        }
+
+
+  @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+ @Test
+  public void testvalidReversed() {
+    int[] input1 = {1,2,3,4 };
+    assertArrayEquals(new int[]{4,3,2,1 }, ArrayExamples.reversed(input1));
+  }
+}
+```
 
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1216163120867835975/Screenshot_2024-03-09_at_3.12.46_PM.png?ex=65ff632b&is=65ecee2b&hm=929385c21eba2239a6e0d782943a98ef4894f4809339bf131b8cda88cd29e0e7&)
 
