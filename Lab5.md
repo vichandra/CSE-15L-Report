@@ -72,3 +72,6 @@ public class ArrayTests {
 
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1216163120867835975/Screenshot_2024-03-09_at_3.12.46_PM.png?ex=65ff632b&is=65ecee2b&hm=929385c21eba2239a6e0d782943a98ef4894f4809339bf131b8cda88cd29e0e7&)
 
+## TA Response:
+
+Hi, it seems your tester is expecting a value that was never initially there in your array setup. Try thinking about how this method goes about reversing this array, specifically, how it is different from ReverseInPlace(), because they're implementation can explain why you are expecting a 0 as the first element in your array, even if it was never part of your array.
