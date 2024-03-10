@@ -91,4 +91,9 @@ This made sense to me since we didnt intialize newArray yet, so the values would
     return newArray;
   }
 ```
+Thankfully, my tests passed! Thank you for the help!
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1216500321136803900/Screenshot_2024-03-10_at_2.27.03_PM.png?ex=66009d36&is=65ee2836&hm=b92097dbb6e8b5ba196579e49c1979a05bd5a3e15b533f711270a329618ec8f9&)
+The file & directory structure needed
+The contents of each file before fixing the bug
+The full command line (or lines) you ran to trigger the bug
+A description of what to edit to fix the bug
