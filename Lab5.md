@@ -74,4 +74,4 @@ public class ArrayTests {
 
 ## TA Response:
 
-Hi, it seems your tester is expecting a value that was never initially there in your array setup. Try thinking about how this method goes about reversing this array, specifically, how it is different from ReverseInPlace(), because they're implementation can explain why you are expecting a 0 as the first element in your array, even if it was never part of your array.
+Hi, you're in the right direction. it seems your tester is expecting a value that was never initially there in your array setup. Try thinking about how this method goes about reversing this array and what happens to the data in the argument array. It may help to notice how it is different from ReverseInPlace(), because they're implementation can explain why you are expecting a 0 as the first element in your array, even if it was never part of your array. (hint: you are using two arrays, how does that affect your implemetnation?)
