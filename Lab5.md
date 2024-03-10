@@ -96,15 +96,15 @@ Thankfully, my tests passed! Thank you for the help!
 
 Directory Structure: ~/Downloads/lab3/
 
-File Structure: 
+ **File Structure:** 
 
-~/Downloads/lab3/ArrayExamples.java
+`~/Downloads/lab3/ArrayExamples.java`
 
-~/Downloads/lab3/ArrayTests.java
+`~/Downloads/lab3/ArrayTests.java`
 
-~/Downloads/lab3/test.sh
+`~/Downloads/lab3/test.sh`
 
-Contents of ArrayExamples.java:
+**Contents of ArrayExamples.java:**
 ```
 public class ArrayExamples {
 
@@ -144,7 +144,7 @@ public class ArrayExamples {
 
 }
 ```
-Contents of ArrayTests.java:
+**Contents of ArrayTests.java:**
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -171,7 +171,7 @@ public class ArrayTests {
 }
 ```
 
-Contents of test.sh:
+**Contents of test.sh:**
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 
