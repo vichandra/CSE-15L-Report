@@ -97,7 +97,9 @@ Thankfully, my tests passed! Thank you for the help!
 Directory Structure: ~/Downloads/lab3/
 File Structure: 
 ~/Downloads/lab3/ArrayExamples.java
+
 ~/Downloads/lab3/ArrayTests.java
+
 ~/Downloads/lab3/test.sh
 
 Contents of ArrayExamples.java:
