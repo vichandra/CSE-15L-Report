@@ -6,15 +6,6 @@
 
 ### I was working on creating a method that can take any array array and reverse the order of the elements. I am not sure what happened but I am getting the wrong expected values. I am not sure what is wrong with my logic but I would like and suggestions or guidance on what the issue is and what I can change. I pasted my code below:
 ```
-public class ArrayExamples {
-
-  // Changes the input array to be in reversed order
-  static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
-    }
-  }
-
   // Returns a *new* array with all the elements of the input array in reversed
   // order
   static int[] reversed(int[] arr) {
@@ -24,23 +15,6 @@ public class ArrayExamples {
     }
     return arr;
   }
-
-  // Averages the numbers in the array (takes the mean), but leaves out the
-  // lowest number when calculating. Returns 0 if there are no elements or just
-  // 1 element in the array
-  static double averageWithoutLowest(double[] arr) {
-    if(arr.length < 2) { return 0.0; }
-    double lowest = arr[0];
-    for(double num: arr) {
-      if(num < lowest) { lowest = num; }
-    }
-    double sum = 0;
-    for(double num: arr) {
-      if(num != lowest) { sum += num; }
-    }
-    return sum / (arr.length - 1);
-  }
-}
 ```
 ### Student: Here is my testing class as well as the failure output I recieved from the terminal:
 ### I believe it may have something to do with the line ` arr[i] = newArray[arr.length - i - 1]; ` but I am not sure.
@@ -178,7 +152,10 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
 
 ```
-
+**Command Line used to trigger bug:**
+`bash test.sh`
+** Edit required to fix bug:**
+Switch the position of arr and NewArray in the forloop and return NewArray.
 
 The file & directory structure needed
 The contents of each file before fixing the bug
