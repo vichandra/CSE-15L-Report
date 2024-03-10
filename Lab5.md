@@ -47,14 +47,15 @@ public class ArrayTests {
 
 ## TA Response:
 
-Hi, you're in the right direction. it seems your tester is expecting a value that was never initially there in your array setup. Try thinking about how this method goes about reversing this array and what happens to the data in the argument array. It may help to notice how it is different from ReverseInPlace(), because they're implementation can explain why you are expecting a 0 as the first element in your array, even if it was never part of your array. (hint: you are using two arrays, how does that affect your implemetnation?)
+**Hi, you're in the right direction. it seems your tester is expecting a value that was never initially there in your array setup. Try thinking about how this method goes about reversing this array and what happens to the data in the argument array. It may help to notice how it is different from ReverseInPlace(), because they're implementation can explain why you are expecting a 0 as the first element in your array, even if it was never part of your array. (hint: you are using two arrays, how does that affect your implemetnation?)**
 
 
 
 
 ## Student Response:
-I think I managed to figure out the line of code that was causing me trouble, which happened to be what I thought it was. I changed `arr[i] = newArray[arr.length - i - 1];` to `arr[i] = newArray[arr.length - i - 1];`
-This made sense to me since we didnt intialize newArray yet, so the values would obviously be 0. I changed the line of code so the final method looks like this:
+
+**I think I managed to figure out the line of code that was causing me trouble, which happened to be what I thought it was. I changed `arr[i] = newArray[arr.length - i - 1];` to `arr[i] = newArray[arr.length - i - 1];`
+This made sense to me since we didnt intialize newArray yet, so the values would obviously be 0. I changed the line of code so the final method looks like this:**
 ```
  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -64,7 +65,7 @@ This made sense to me since we didnt intialize newArray yet, so the values would
     return newArray;
   }
 ```
-Thankfully, my tests passed! Thank you for the help!
+**Thankfully, my tests passed! Thank you for the help!**
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1216500321136803900/Screenshot_2024-03-10_at_2.27.03_PM.png?ex=66009d36&is=65ee2836&hm=b92097dbb6e8b5ba196579e49c1979a05bd5a3e15b533f711270a329618ec8f9&)
 
 **Directory Structure:**
