@@ -93,6 +93,89 @@ This made sense to me since we didnt intialize newArray yet, so the values would
 ```
 Thankfully, my tests passed! Thank you for the help!
 ![img](https://cdn.discordapp.com/attachments/974137838180380672/1216500321136803900/Screenshot_2024-03-10_at_2.27.03_PM.png?ex=66009d36&is=65ee2836&hm=b92097dbb6e8b5ba196579e49c1979a05bd5a3e15b533f711270a329618ec8f9&)
+
+Directory Structure: ~/Downloads/lab3/
+File Structure: 
+~/Downloads/lab3/ArrayExamples.java
+~/Downloads/lab3/ArrayTests.java
+~/Downloads/lab3/test.sh
+
+Contents of ArrayExamples.java:
+```
+public class ArrayExamples {
+
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i]= arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+
+  // Averages the numbers in the array (takes the mean), but leaves out the
+  // lowest number when calculating. Returns 0 if there are no elements or just
+  // 1 element in the array
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+
+
+}
+```
+Contents of ArrayTests.java:
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+
+public class ArrayTests {
+        @Test
+        public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+        }
+
+
+  @Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+ @Test
+  public void testvalidReversed() {
+    int[] input1 = {1,2,3,4 };
+    assertArrayEquals(new int[]{4,3,2,1 }, ArrayExamples.reversed(input1));
+  }
+}
+```
+
+Contents of test.sh:
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
+
+```
+
+
 The file & directory structure needed
 The contents of each file before fixing the bug
 The full command line (or lines) you ran to trigger the bug
