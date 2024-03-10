@@ -4,7 +4,7 @@
 
 ### Student:
 
-### I was working on creating a method that can take any array array and reverse the order of the elements. I am not sure what happened but I am getting the wrong expected values. I am not sure what is wrong with my logic but I would like and suggestions or guidance on what the issue is and what I can change. I pasted my code below:
+ **I was working on creating a method that can take any array array and reverse the order of the elements. I am not sure what happened but I am getting the wrong expected values. I am not sure what is wrong with my logic but I would like and suggestions or guidance on what the issue is and what I can change. I pasted my code below:**
 ```
   // Returns a *new* array with all the elements of the input array in reversed
   // order
@@ -16,8 +16,7 @@
     return arr;
   }
 ```
-### Student: Here is my testing class as well as the failure output I recieved from the terminal:
-### I believe it may have something to do with the line ` arr[i] = newArray[arr.length - i - 1]; ` but I am not sure.
+**Here is my testing class as well as the failure output I recieved from the terminal: I believe it may have something to do with the line ` arr[i] = newArray[arr.length - i - 1]; ` but I am not sure. **
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
