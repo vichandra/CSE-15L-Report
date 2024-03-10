@@ -55,7 +55,7 @@ public class ArrayTests {
 ## Student Response:
 
 **I think I managed to figure out the line of code that was causing me trouble, which happened to be what I thought it was. I changed `arr[i] = newArray[arr.length - i - 1];` to `arr[i] = newArray[arr.length - i - 1];`
-This made sense to me since we didnt intialize newArray yet, so the values would obviously be 0. I changed the line of code so the final method looks like this:**
+This made sense to me since we didn't intialize newArray yet, so the values would obviously be 0. I changed the line of code so the final method looks like this:**
 ```
  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
