@@ -161,3 +161,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 Switch the position of arr and NewArray in the forloop and return NewArray.
 
+
+## Reflection:
+
+I think the most useful command this quarter has to be vim for me. I use it anytime I need to quickly edit a file, especially I do not have a proper IDE to help me code or if I am just feeling too lazy to search for the code in my computer. Ultimatley, a realy easy to use and great command.
