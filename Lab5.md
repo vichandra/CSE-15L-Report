@@ -75,3 +75,19 @@ public class ArrayTests {
 ## TA Response:
 
 Hi, you're in the right direction. it seems your tester is expecting a value that was never initially there in your array setup. Try thinking about how this method goes about reversing this array and what happens to the data in the argument array. It may help to notice how it is different from ReverseInPlace(), because they're implementation can explain why you are expecting a 0 as the first element in your array, even if it was never part of your array. (hint: you are using two arrays, how does that affect your implemetnation?)
+
+
+
+
+## Student Response:
+
+### Student: I think I managed to figure out the line of code that was causing me trouble, which happened to be what I thought it was. I changed `arr[i] = newArray[arr.length - i - 1];` to `arr[i] = newArray[arr.length - i - 1];`
+```
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i]= arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
