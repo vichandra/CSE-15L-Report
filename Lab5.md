@@ -154,10 +154,8 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 **Command Line used to trigger bug:**
 `bash test.sh`
-** Edit required to fix bug:**
+
+**Edit required to fix bug:**
+
 Switch the position of arr and NewArray in the forloop and return NewArray.
 
-The file & directory structure needed
-The contents of each file before fixing the bug
-The full command line (or lines) you ran to trigger the bug
-A description of what to edit to fix the bug
