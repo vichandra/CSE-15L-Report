@@ -16,7 +16,7 @@
     return arr;
   }
 ```
-**Here is my testing class as well as the failure output I recieved from the terminal: I believe it may have something to do with the line ` arr[i] = newArray[arr.length - i - 1]; ` but I am not sure.**
+**Here is my testing class as well as the failure output I recieved from the terminal: I believe it may have something to do with the line `arr[i] = newArray[arr.length - i - 1];` but I am not sure.**
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
